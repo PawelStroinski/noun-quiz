@@ -1,0 +1,1860 @@
+{:icons
+               ({:tags
+                                ({:slug "monitor", :id 1017}
+                                  {:slug "ekg", :id 1018}
+                                  {:slug "health", :id 675}
+                                  {:slug "health-care", :id 601}
+                                  {:slug "heart", :id 231}
+                                  {:slug "pulse", :id 1019}),
+                 :date-uploaded "2011-11-30",
+                 :uploader-id "370",
+                 :uploader
+                                        {:username "iconify",
+                                         :permalink "/iconify",
+                                         :name "Scott Lewis",
+                                         :location "Richmond, Virginia, US"},
+                 :sponsor-campaign-link nil,
+                 :permalink "/term/monitor/816",
+                 :license-description "creative-commons-attribution",
+                 :preview-url-42
+                                        "https://d30y9cdsu7xlg0.cloudfront.net/png/816-42.png",
+                 :attribution-preview-url
+                                        "https://d30y9cdsu7xlg0.cloudfront.net/attribution/816-600.png",
+                 :collections (),
+                 :term-slug "monitor",
+                 :term "Monitor",
+                 :term-id 1017,
+                 :is-active "1",
+                 :year 2011,
+                 :id "816",
+                 :sponsor-id "",
+                 :attribution "Monitor by Scott Lewis from The Noun Project",
+                 :preview-url
+                                        "https://d30y9cdsu7xlg0.cloudfront.net/png/4085-200.png",
+                 :preview-url-84
+                                        "https://d30y9cdsu7xlg0.cloudfront.net/png/816-84.png",
+                 :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "digital", :id 3918}
+                                   {:slug "flat-screen", :id 5501}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2012-08-16",
+                  :uploader-id "6769",
+                  :uploader
+                                         {:username "squintongreen",
+                                          :permalink "/squintongreen",
+                                          :name "Samuel Q. Green",
+                                          :location "Atlanta, Georgia, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/4085",
+                  :license-description "license?",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/4085-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/4085-600.png",
+                  :collections
+                                         ({:description "",
+                                           :tags (),
+                                           :is-published "1",
+                                           :slug "modern-minimal",
+                                           :date-created "2012-08-20 16:14:46",
+                                           :sponsor-campaign-link "",
+                                           :date-updated "2012-09-27 00:18:11",
+                                           :name "Modern Minimal",
+                                           :permalink "/squintongreen/collection/modern-minimal",
+                                           :is-store-item "0",
+                                           :template "24",
+                                           :author
+                                           {:username "squintongreen",
+                                            :permalink "/squintongreen",
+                                            :name "Samuel Q. Green",
+                                            :location "Atlanta, Georgia, US"},
+                                           :id "14",
+                                           :sponsor-id "",
+                                           :author-id "6769",
+                                           :is-collaborative "",
+                                           :is-featured "1",
+                                           :sponsor {}}),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "4085",
+                  :sponsor-id "",
+                  :attribution "Monitor by Samuel Q. Green from The Noun Project",
+                  :preview-url
+                                         "https://license?/816-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/4085-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "display", :id 5928}
+                                   {:slug "lcd", :id 1387}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}
+                                   {:slug "vdu", :id 5929}),
+                  :date-uploaded "2012-08-31",
+                  :uploader-id "7781",
+                  :uploader
+                                         {:username "bitsnbobs",
+                                          :permalink "/bitsnbobs",
+                                          :name "James Fenton",
+                                          :location "Bury St.Edmunds, UK, UK, GB"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/4534",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/4534-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/4534-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "4534",
+                  :sponsor-id "",
+                  :attribution "Monitor by James Fenton from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/4534-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/4534-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "apple", :id 704}
+                                   {:slug "computer", :id 157}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "macintosh", :id 5045}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2012-09-10",
+                  :uploader-id "2393",
+                  :uploader
+                                         {:username "olivierguin",
+                                          :permalink "/olivierguin",
+                                          :name "Olivier Guin",
+                                          :location "Paris, FR"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/4733",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/4733-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/4733-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2010,
+                  :id "4733",
+                  :sponsor-id "",
+                  :attribution "Monitor by Olivier Guin from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/4733-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/4733-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "display", :id 5928}
+                                   {:slug "home", :id 339}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2012-10-03",
+                  :uploader-id "11047",
+                  :uploader
+                                         {:username "Piotrek",
+                                          :permalink "/Piotrek",
+                                          :name "Piotr Gawiński",
+                                          :location "Wieliczka, Małopolskie, PL"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/5478",
+                  :license-description "public-domain",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/5478-42.png",
+                  :icon-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/noun-svg/5478.svg?Expires=1435105879&Signature=CogHS7PiNGOhR0DdE879iP7Jo-SmwGJ-7Nbv~3p9LNurEkmNnG-ZtorqpwkkWGajG5AcyjBJtDfW5BFOe-lmyysNFLdxxnUjiBMDM41r3Azz1TvFunY5YrTs-xZp4Uex2MnxJkWDrgjOIiD2qZ8nAv42gYod6uBdlkU2RA5cMr0_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "5478",
+                  :sponsor-id "",
+                  :attribution "Monitor by Piotr Gawiński from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/5478-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/5478-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "display", :id 5928}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2012-10-09",
+                  :uploader-id "11247",
+                  :uploader
+                                         {:username "Nozzman",
+                                          :permalink "/Nozzman",
+                                          :name "Bram van Rijen",
+                                          :location "Rotterdam, NL"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/5931",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/5931-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/5931-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2011,
+                  :id "5931",
+                  :sponsor-id "",
+                  :attribution "Monitor by Bram van Rijen from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/5931-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/5931-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}
+                                   {:slug "television", :id 442}),
+                  :date-uploaded "2012-10-15",
+                  :uploader-id "12788",
+                  :uploader
+                                         {:username "Yorlmar Campos",
+                                          :permalink "/Yorlmar Campos",
+                                          :name "Yorlmar Campos",
+                                          :location "Caracas, Capital, VE"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/6340",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/6340-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/6340-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "6340",
+                  :sponsor-id "",
+                  :attribution "Monitor by Yorlmar Campos from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/6340-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/6340-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "apple-computer", :id 7804}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2012-10-26",
+                  :uploader-id "9433",
+                  :uploader
+                                         {:username "karthicknagarajanps",
+                                          :permalink "/karthicknagarajanps",
+                                          :name "Karthick Nagarajan",
+                                          :location "bangalore, Karnataka, IN"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/6895",
+                  :license-description "public-domain",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/6895-42.png",
+                  :icon-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/noun-svg/6895.svg?Expires=1435105879&Signature=Z4SZzqEIjpUOpHwM8kkSf7SU2Zf1uWj8jaB760RKJiqdb0ZTJVAA7OwUDbwTpAZ117RMW3T7fVqi8jLR5ydPhqEXA981fhEpNLAPjzUVpH8KONRmRaMOdJvx5TgTAutDqRAigIb3SSmoaT~fHIx0dI9AB6QY5n-DnEx13p4nGic_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "6895",
+                  :sponsor-id "",
+                  :attribution "Monitor by Karthick Nagarajan from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/6895-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/6895-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "flat-screen", :id 5501}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2012-11-15",
+                  :uploader-id "16330",
+                  :uploader
+                                         {:username "sven-gabriel",
+                                          :permalink "/sven-gabriel",
+                                          :name "Sven Gabriel",
+                                          :location "Berlin, Berlin, DE"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/7783",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/7783-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/7783-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "7783",
+                  :sponsor-id "",
+                  :attribution "Monitor by Sven Gabriel from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/7783-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/7783-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "display", :id 5928}
+                                   {:slug "lcd-monitor", :id 8555}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2012-11-27",
+                  :uploader-id "6756",
+                  :uploader
+                                         {:username "fusillomaurizio",
+                                          :permalink "/fusillomaurizio",
+                                          :name "Maurizio Fusillo",
+                                          :location "san severo, IT"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/8207",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8207-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/8207-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "8207",
+                  :sponsor-id "",
+                  :attribution "Monitor by Maurizio Fusillo from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8207-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8207-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "economy", :id 2482}
+                                   {:slug "online-trading", :id 8556}
+                                   {:slug "stock", :id 8557}
+                                   {:slug "stock-trading", :id 8558}
+                                   {:slug "trade", :id 634}),
+                  :date-uploaded "2012-11-27",
+                  :uploader-id "6756",
+                  :uploader
+                                         {:username "fusillomaurizio",
+                                          :permalink "/fusillomaurizio",
+                                          :name "Maurizio Fusillo",
+                                          :location "san severo, IT"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/8208",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8208-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/8208-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "8208",
+                  :sponsor-id "",
+                  :attribution "Monitor by Maurizio Fusillo from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8208-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8208-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "apple", :id 704}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "desktop-computer", :id 4987}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2012-12-12",
+                  :uploader-id "16431",
+                  :uploader
+                                         {:username "ymeri",
+                                          :permalink "/ymeri",
+                                          :name "Eddy Ymeri",
+                                          :location "Chicago, Illinois, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/8874",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8874-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/8874-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "8874",
+                  :sponsor-id "",
+                  :attribution "Monitor by Eddy Ymeri from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8874-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/8874-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "display", :id 5928}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "screen", :id 1293}),
+                  :date-uploaded "2013-01-07",
+                  :uploader-id "2208",
+                  :uploader
+                                         {:username "monstercritic",
+                                          :permalink "/monstercritic",
+                                          :name "Shmidt Sergey",
+                                          :location "Brooklyn, New York, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/9660",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9660-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/9660-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "9660",
+                  :sponsor-id "",
+                  :attribution "Monitor by Shmidt Sergey from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9660-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9660-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "desktop-computer", :id 4987}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "tv", :id 3499}
+                                   {:slug "wide-screen-monitor", :id 1388}
+                                   {:slug "widescreen", :id 9695}),
+                  :date-uploaded "2013-01-10",
+                  :uploader-id "13911",
+                  :uploader
+                                         {:username "ChowKaiDeng",
+                                          :permalink "/ChowKaiDeng",
+                                          :name "Daniel Yanes Arroyo",
+                                          :location "Caracas, VE"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/9814",
+                  :license-description "public-domain",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9814-42.png",
+                  :icon-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/noun-svg/9814.svg?Expires=1435105879&Signature=FuPWrCcY1HMHd5252ZmBXhjHfoGcUkrtCl~uK3totdgAq~qVCvwODltDwc6-KiumFRg~cSIM0A0~bfz~qfvHyZjFIttCUgTNdUOlFspBWiu92pGLjIP2UejClvXKWlYjhzk3Po~4k93JzLHgrWcGUq3N7IuFJIVudy3kwSTZwRs_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "9814",
+                  :sponsor-id "",
+                  :attribution "Monitor by Daniel Yanes Arroyo from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9814-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9814-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "cpu", :id 9578}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "screen", :id 1293}),
+                  :date-uploaded "2013-01-11",
+                  :uploader-id "12358",
+                  :uploader
+                                         {:username "cengizsari",
+                                          :permalink "/cengizsari",
+                                          :name "Cengiz SARI",
+                                          :location "İstanbul, TR"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/9838",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9838-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/9838-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "9838",
+                  :sponsor-id "",
+                  :attribution "Monitor by Cengiz SARI from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9838-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/9838-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "cursor", :id 4043}
+                                   {:slug "mouse", :id 1181}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2013-01-23",
+                  :uploader-id "25212",
+                  :uploader
+                                         {:username "cedricvillain",
+                                          :permalink "/cedricvillain",
+                                          :name "Cédric Villain",
+                                          :location "Lille, Nord-Pas-de-Calais, FR"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/10351",
+                  :license-description "public-domain",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/10351-42.png",
+                  :icon-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/noun-svg/10351.svg?Expires=1435105879&Signature=ceECPiE27d9JARoh33mXWeAEBLg3SiZS9VhbwE6EQdhlxl5j7P-Jp65cHyl79bEg04s9XJU7Uc8ZVwMgGfDDe0BZ3rNQFJ9DN9zT7V7QfKGRqDSeoqj08QIhLDFeSy2kFNQgaF5f1SL0e2xUpWywTrAzaYUwWptPKXy4pWF6IaA_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "10351",
+                  :sponsor-id "",
+                  :attribution "Monitor by Cédric Villain from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/10351-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/10351-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "office", :id 660}
+                                   {:slug "screen", :id 1293}),
+                  :date-uploaded "2013-02-18",
+                  :uploader-id "29593",
+                  :uploader
+                                         {:username "sebastian.langer.330",
+                                          :permalink "/sebastian.langer.330",
+                                          :name "Sebastian Langer",
+                                          :location "Berlin, Berlin, DE"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/11824",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/11824-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/11824-600.png",
+                  :collections
+                                         ({:description "",
+                                           :tags (),
+                                           :is-published "1",
+                                           :slug "illuminated",
+                                           :date-created "2013-02-26 11:45:51",
+                                           :sponsor-campaign-link "",
+                                           :date-updated "2013-02-26 12:00:47",
+                                           :name "Illuminated",
+                                           :permalink "/sebastian.langer.330/collection/illuminated",
+                                           :is-store-item "0",
+                                           :template "24",
+                                           :author
+                                           {:username "sebastian.langer.330",
+                                            :permalink "/sebastian.langer.330",
+                                            :name "Sebastian Langer",
+                                            :location "Berlin, Berlin, DE"},
+                                           :id "23",
+                                           :sponsor-id "",
+                                           :author-id "29593",
+                                           :is-collaborative "",
+                                           :is-featured "1",
+                                           :sponsor {}}),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2012,
+                  :id "11824",
+                  :sponsor-id "",
+                  :attribution "Monitor by Sebastian Langer from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/11824-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/11824-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "online", :id 5438}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}),
+                  :date-uploaded "2013-04-10",
+                  :uploader-id "16590",
+                  :uploader
+                                         {:username "justin.alexander.77398143",
+                                          :permalink "/justin.alexander.77398143",
+                                          :name "Justin Alexander",
+                                          :location "Chicago, Illinois, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/15124",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15124-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/15124-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "15124",
+                  :sponsor-id "",
+                  :attribution "Monitor by Justin Alexander from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15124-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15124-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "display", :id 5928}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-04-17",
+                  :uploader-id "273999",
+                  :uploader
+                                         {:username "mrfa",
+                                          :permalink "/mrfa",
+                                          :name "Martha Ormiston",
+                                          :location "Los Angeles, CA, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/15552",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15552-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/15552-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "15552",
+                  :sponsor-id "",
+                  :attribution "Monitor by Martha Ormiston from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15552-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15552-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "screen", :id 1293}),
+                  :date-uploaded "2013-04-25",
+                  :uploader-id "109803",
+                  :uploader
+                                         {:username "clagom",
+                                          :permalink "/clagom",
+                                          :name "Claudio Gomboli",
+                                          :location "Berlin, Berlin, DE"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/15967",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15967-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/15967-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2011,
+                  :id "15967",
+                  :sponsor-id "",
+                  :attribution "Monitor by Claudio Gomboli from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15967-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/15967-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "cursor", :id 4043}
+                                   {:slug "mouse", :id 1181}
+                                   {:slug "screen", :id 1293}),
+                  :date-uploaded "2013-06-06",
+                  :uploader-id "19420",
+                  :uploader
+                                         {:username "provins",
+                                          :permalink "/provins",
+                                          :name "Chris Provins",
+                                          :location "Edmonton, Alberta, CA"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/17714",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/17714-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/17714-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "17714",
+                  :sponsor-id "",
+                  :attribution "Monitor by Chris Provins from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/17714-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/17714-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-07-18",
+                  :uploader-id "3533",
+                  :uploader
+                                         {:username "logorado",
+                                          :permalink "/logorado",
+                                          :name "Nadir Balcikli",
+                                          :location "Ankara, TR"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/20002",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/20002-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/20002-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "20002",
+                  :sponsor-id "",
+                  :attribution "Monitor by Nadir Balcikli from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/20002-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/20002-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "apple", :id 704}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}
+                                   {:slug "work", :id 460}),
+                  :date-uploaded "2013-08-28",
+                  :uploader-id "110970",
+                  :uploader
+                                         {:username "kogler",
+                                          :permalink "/kogler",
+                                          :name "monica kogler",
+                                          :location "San Francisco, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/22241",
+                  :license-description "license?",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/22241-42.png",
+                  :icon-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/noun-svg/22241.svg?Expires=1435105879&Signature=GNiay88Uxt-OjULUEBh5vS6lSAEDhlEQcHGn7ZFo5KkdopI~hgTAfx4w1x-qQ9~kB-WcYcTqmFKZQFrX2cO6oFpgeTZkfb8-fPQ7qtSYGRcLPeTLfRq8K4dqk8wqfKItquGMnPA696NA1vA2RdiQFtOjqT0qrCRPo5geTOc5x6k_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "22241",
+                  :sponsor-id "",
+                  :attribution "Monitor by monica kogler from The Noun Project",
+                  :preview-url
+                                         "https://license?/816-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/22241-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "display", :id 5928}
+                                   {:slug "flat-screen", :id 5501}
+                                   {:slug "pc", :id 8663}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-09-05",
+                  :uploader-id "19905",
+                  :uploader
+                                         {:username "wilsonjoseph",
+                                          :permalink "/wilsonjoseph",
+                                          :name "Wilson Joseph",
+                                          :location " "},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/22512",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/22512-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/22512-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "22512",
+                  :sponsor-id "",
+                  :attribution "Monitor by Wilson Joseph from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/22512-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/22512-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desk", :id 670}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "work", :id 460}),
+                  :date-uploaded "2013-10-05",
+                  :uploader-id "206695",
+                  :uploader
+                                         {:username "Ivanisawesome",
+                                          :permalink "/Ivanisawesome",
+                                          :name "Ivan Colic",
+                                          :location "Cape Town, Western Cape, ZA"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/24142",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24142-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/24142-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "24142",
+                  :sponsor-id "",
+                  :attribution "Monitor by Ivan Colic from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24142-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24142-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "lcd", :id 1387}
+                                   {:slug "led-display", :id 18885}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-10-08",
+                  :uploader-id "178035",
+                  :uploader
+                                         {:username "Muhammad.Umar.45",
+                                          :permalink "/Muhammad.Umar.45",
+                                          :name "Muhammad Umar",
+                                          :location "Lahore, Punjab, PK"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/24241",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24241-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/24241-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "24241",
+                  :sponsor-id "",
+                  :attribution "Monitor by Muhammad Umar from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24241-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24241-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "pc", :id 8663}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-10-15",
+                  :uploader-id "211989",
+                  :uploader
+                                         {:username "VMV",
+                                          :permalink "/VMV",
+                                          :name "Vittorio Maria Vecchi",
+                                          :location "IT"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/24576",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24576-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/24576-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "24576",
+                  :sponsor-id "",
+                  :attribution
+                                         "Monitor by Vittorio Maria Vecchi from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24576-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/24576-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desk", :id 670}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "pc", :id 8663}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-11-08",
+                  :uploader-id "206124",
+                  :uploader
+                                         {:username "phdieuli",
+                                          :permalink "/phdieuli",
+                                          :name "Pham Thi Dieu Linh",
+                                          :location "Ho Chi Minh, VN"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/25784",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25784-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/25784-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "25784",
+                  :sponsor-id "",
+                  :attribution "Monitor by Pham Thi Dieu Linh from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25784-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25784-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "cpu", :id 9578}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-11-08",
+                  :uploader-id "33463",
+                  :uploader
+                                         {:username "rafadsm",
+                                          :permalink "/rafadsm",
+                                          :name "Rafael Martins",
+                                          :location "Jacareí, São Paulo, BR"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/25870",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25870-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/25870-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "25870",
+                  :sponsor-id "",
+                  :attribution "Monitor by Rafael Martins from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25870-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25870-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "cathode-ray-tube", :id 20538}
+                                   {:slug "computer", :id 157}
+                                   {:slug "crt", :id 20539}
+                                   {:slug "entertainment", :id 2468}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-11-08",
+                  :uploader-id "29104",
+                  :uploader
+                                         {:username "factor_e",
+                                          :permalink "/factor_e",
+                                          :name "factor[e] design initiative",
+                                          :location
+                                          "Hamilton (Durand / Kirkendall / Chedoke Park), Ontario, CA"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/25910",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25910-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/25910-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "25910",
+                  :sponsor-id "",
+                  :attribution
+                                         "Monitor by factor[e] design initiative from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25910-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25910-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "display", :id 5928}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-11-09",
+                  :uploader-id "6511",
+                  :uploader
+                                         {:username "kikkerbillen",
+                                          :permalink "/kikkerbillen",
+                                          :name "Jule Steffen & Matthias Schmidt",
+                                          :location "Cologne, DE"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/25984",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25984-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/25984-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "25984",
+                  :sponsor-id "",
+                  :attribution
+                                         "Monitor by Jule Steffen & Matthias Schmidt from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25984-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/25984-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "entertainment", :id 2468}
+                                   {:slug "pc", :id 8663}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-11-10",
+                  :uploader-id "5810",
+                  :uploader
+                                         {:username "volorf",
+                                          :permalink "/volorf",
+                                          :name "Oleg Frolov",
+                                          :location "Moscow, RU"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/26068",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/26068-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/26068-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "26068",
+                  :sponsor-id "",
+                  :attribution "Monitor by Oleg Frolov from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/26068-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/26068-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "continuous-line", :id 21291}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "pc", :id 8663}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2013-11-23",
+                  :uploader-id "206124",
+                  :uploader
+                                         {:username "phdieuli",
+                                          :permalink "/phdieuli",
+                                          :name "Pham Thi Dieu Linh",
+                                          :location "Ho Chi Minh, VN"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/27020",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/27020-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/27020-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "27020",
+                  :sponsor-id "",
+                  :attribution "Monitor by Pham Thi Dieu Linh from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/27020-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/27020-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "display", :id 5928}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "imac-27", :id 18765}
+                                   {:slug "imac-desktop-computer", :id 7127}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "work", :id 460}),
+                  :date-uploaded "2013-12-01",
+                  :uploader-id "14119",
+                  :uploader
+                                         {:username "misirlou",
+                                          :permalink "/misirlou",
+                                          :name "misirlou",
+                                          :location "DE"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/27344",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/27344-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/27344-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2013,
+                  :id "27344",
+                  :sponsor-id "",
+                  :attribution "Monitor by misirlou from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/27344-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/27344-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "tv", :id 3499}
+                                   {:slug "television", :id 442}
+                                   {:slug "technology", :id 159}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "desk", :id 670}
+                                   {:slug "computer", :id 157}
+                                   {:slug "work", :id 460}),
+                  :date-uploaded "2014-01-01",
+                  :uploader-id "180534",
+                  :uploader
+                                         {:username "staaCopy",
+                                          :permalink "/staaCopy",
+                                          :name "Stano Bagin",
+                                          :location "Trnava, SK"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/28560",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28560-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/28560-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "28560",
+                  :sponsor-id "",
+                  :attribution "Monitor by Stano Bagin from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28560-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28560-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "desk", :id 670}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}
+                                   {:slug "work", :id 460}),
+                  :date-uploaded "2014-01-01",
+                  :uploader-id "180534",
+                  :uploader
+                                         {:username "staaCopy",
+                                          :permalink "/staaCopy",
+                                          :name "Stano Bagin",
+                                          :location "Trnava, SK"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/28561",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28561-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/28561-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "28561",
+                  :sponsor-id "",
+                  :attribution "Monitor by Stano Bagin from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28561-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28561-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "television", :id 442}
+                                   {:slug "technology", :id 159}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "desk", :id 670}
+                                   {:slug "computer", :id 157}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2014-01-01",
+                  :uploader-id "180534",
+                  :uploader
+                                         {:username "staaCopy",
+                                          :permalink "/staaCopy",
+                                          :name "Stano Bagin",
+                                          :location "Trnava, SK"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/28562",
+                  :license-description "license?",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28562-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/28562-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "28562",
+                  :sponsor-id "",
+                  :attribution "Monitor by Stano Bagin from The Noun Project",
+                  :preview-url
+                                         "https://license?/816-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28562-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "tv", :id 3499}
+                                   {:slug "television", :id 442}
+                                   {:slug "technology", :id 159}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "office", :id 660}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "desk", :id 670}
+                                   {:slug "computer", :id 157}
+                                   {:slug "work", :id 460}),
+                  :date-uploaded "2014-01-01",
+                  :uploader-id "180534",
+                  :uploader
+                                         {:username "staaCopy",
+                                          :permalink "/staaCopy",
+                                          :name "Stano Bagin",
+                                          :location "Trnava, SK"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/28563",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28563-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/28563-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "28563",
+                  :sponsor-id "",
+                  :attribution "Monitor by Stano Bagin from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28563-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28563-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "tv", :id 3499}
+                                   {:slug "television", :id 442}
+                                   {:slug "technology", :id 159}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "office", :id 660}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "computer", :id 157}
+                                   {:slug "work", :id 460}),
+                  :date-uploaded "2014-01-01",
+                  :uploader-id "180534",
+                  :uploader
+                                         {:username "staaCopy",
+                                          :permalink "/staaCopy",
+                                          :name "Stano Bagin",
+                                          :location "Trnava, SK"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/28564",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28564-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/28564-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "28564",
+                  :sponsor-id "",
+                  :attribution "Monitor by Stano Bagin from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28564-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28564-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "tv", :id 3499}
+                                   {:slug "television", :id 442}
+                                   {:slug "technology", :id 159}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "office", :id 660}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "computer", :id 157}
+                                   {:slug "work", :id 460}),
+                  :date-uploaded "2014-01-01",
+                  :uploader-id "180534",
+                  :uploader
+                                         {:username "staaCopy",
+                                          :permalink "/staaCopy",
+                                          :name "Stano Bagin",
+                                          :location "Trnava, SK"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/28565",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28565-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/28565-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "28565",
+                  :sponsor-id "",
+                  :attribution "Monitor by Stano Bagin from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28565-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28565-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "entertainment", :id 2468}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2014-01-02",
+                  :uploader-id "21673",
+                  :uploader
+                                         {:username "garrett.knoll",
+                                          :permalink "/garrett.knoll",
+                                          :name "Garrett Knoll",
+                                          :location "Los Angeles, CA, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/28626",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28626-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/28626-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "28626",
+                  :sponsor-id "",
+                  :attribution "Monitor by Garrett Knoll from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28626-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/28626-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "apple", :id 704}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "display", :id 5928}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "technology", :id 159}
+                                   {:slug "television", :id 442}),
+                  :date-uploaded "2014-01-15",
+                  :uploader-id "13637",
+                  :uploader
+                                         {:username "ARudmann",
+                                          :permalink "/ARudmann",
+                                          :name "ARudmann",
+                                          :location "Los Angeles, CA, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/29562",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29562-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/29562-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "29562",
+                  :sponsor-id "",
+                  :attribution "Monitor by ARudmann from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29562-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29562-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "television", :id 442}
+                                   {:slug "shiney", :id 11092}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "pc", :id 8663}
+                                   {:slug "new", :id 2579}
+                                   {:slug "electronics", :id 697}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "computer", :id 157}
+                                   {:slug "clean", :id 1093}
+                                   {:slug "appliance", :id 1854}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2014-01-17",
+                  :uploader-id "130089",
+                  :uploader
+                                         {:username "aduch89",
+                                          :permalink "/aduch89",
+                                          :name "Adrien Duchateau",
+                                          :location "Brussels, Choisir…, BE"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/29712",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29712-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/29712-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "29712",
+                  :sponsor-id "",
+                  :attribution "Monitor by Adrien Duchateau from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29712-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29712-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "apple", :id 704}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "imac", :id 1392}
+                                   {:slug "mac", :id 3997}
+                                   {:slug "pc", :id 8663}
+                                   {:slug "personal-computer", :id 8965}),
+                  :date-uploaded "2014-01-18",
+                  :uploader-id "126139",
+                  :uploader
+                                         {:username "Zoxon",
+                                          :permalink "/Zoxon",
+                                          :name "Konstantin  Velichko",
+                                          :location "Bishkek, KG"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/29797",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29797-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/29797-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "29797",
+                  :sponsor-id "",
+                  :attribution
+                                         "Monitor by Konstantin  Velichko from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29797-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/29797-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "flat", :id 2632}
+                                   {:slug "lcd", :id 1387}
+                                   {:slug "led", :id 3080}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "video", :id 164}),
+                  :date-uploaded "2014-01-23",
+                  :uploader-id "12528",
+                  :uploader
+                                         {:username "grantmfisher",
+                                          :permalink "/grantmfisher",
+                                          :name "Grant Fisher",
+                                          :location "Nashville, TN"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/30341",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/30341-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/30341-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "30341",
+                  :sponsor-id "",
+                  :attribution "Monitor by Grant Fisher from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/30341-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/30341-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "display", :id 5928}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "flat-screen", :id 5501}
+                                   {:slug "frame", :id 2263}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2014-01-30",
+                  :uploader-id "257209",
+                  :uploader
+                                         {:username "SimpleIcons",
+                                          :permalink "/SimpleIcons",
+                                          :name "Simple Icons",
+                                          :location ""},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/31597",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31597-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/31597-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "31597",
+                  :sponsor-id "",
+                  :attribution "Monitor by Simple Icons from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31597-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31597-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "digital", :id 3918}
+                                   {:slug "display", :id 5928}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "flat-screen", :id 5501}
+                                   {:slug "frame", :id 2263}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2014-01-30",
+                  :uploader-id "257209",
+                  :uploader
+                                         {:username "SimpleIcons",
+                                          :permalink "/SimpleIcons",
+                                          :name "Simple Icons",
+                                          :location ""},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/31598",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31598-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/31598-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "31598",
+                  :sponsor-id "",
+                  :attribution "Monitor by Simple Icons from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31598-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31598-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "television", :id 442}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "portable", :id 3169}
+                                   {:slug "frame", :id 2263}
+                                   {:slug "electronic", :id 4386}
+                                   {:slug "digital", :id 3918}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "blank", :id 7178}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2014-01-30",
+                  :uploader-id "257209",
+                  :uploader
+                                         {:username "SimpleIcons",
+                                          :permalink "/SimpleIcons",
+                                          :name "Simple Icons",
+                                          :location ""},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/31599",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31599-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/31599-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "31599",
+                  :sponsor-id "",
+                  :attribution "Monitor by Simple Icons from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31599-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31599-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "desktop", :id 4986}
+                                   {:slug "digital", :id 3918}
+                                   {:slug "display", :id 5928}
+                                   {:slug "frame", :id 2263}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2014-01-30",
+                  :uploader-id "257209",
+                  :uploader
+                                         {:username "SimpleIcons",
+                                          :permalink "/SimpleIcons",
+                                          :name "Simple Icons",
+                                          :location ""},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/31600",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31600-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/31600-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "31600",
+                  :sponsor-id "",
+                  :attribution "Monitor by Simple Icons from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31600-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/31600-84.png",
+                  :sponsor {}}
+                 {:tags
+                                 ({:slug "monitor", :id 1017}
+                                   {:slug "computer", :id 157}
+                                   {:slug "laptop", :id 156}
+                                   {:slug "screen", :id 1293}
+                                   {:slug "television", :id 442}
+                                   {:slug "tv", :id 3499}),
+                  :date-uploaded "2014-02-04",
+                  :uploader-id "40841",
+                  :uploader
+                                         {:username "icons.design",
+                                          :permalink "/icons.design",
+                                          :name "icons.design",
+                                          :location "Huntington Beach, California, US"},
+                  :sponsor-campaign-link nil,
+                  :permalink "/term/monitor/32186",
+                  :license-description "creative-commons-attribution",
+                  :preview-url-42
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/32186-42.png",
+                  :attribution-preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/attribution/32186-600.png",
+                  :collections (),
+                  :term-slug "monitor",
+                  :term "Monitor",
+                  :term-id 1017,
+                  :is-active "1",
+                  :year 2014,
+                  :id "32186",
+                  :sponsor-id "",
+                  :attribution "Monitor by icons.design from The Noun Project",
+                  :preview-url
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/32186-200.png",
+                  :preview-url-84
+                                         "https://d30y9cdsu7xlg0.cloudfront.net/png/32186-84.png",
+                  :sponsor {}}),
+ :generated-at "Tue, 23 Jun 2015 23:31:19 GMT"}

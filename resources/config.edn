@@ -1,5 +1,8 @@
 {:thenounproject {:key    ""
                   :secret ""}
+ :try-options    {:sleep 500
+                  :decay :double
+                  :tries 3}
  :always-as-text [;Source: https://en.wikipedia.org/wiki/Most_common_words_in_English
 
                   ;Nouns

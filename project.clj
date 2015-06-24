@@ -8,7 +8,8 @@
                  [hiccup "1.0.5"]
                  [garden "1.2.5"]
                  [oauth-clj "0.1.13"]
-                 [org.clojure/data.json "0.2.6"]]
+                 [org.clojure/data.json "0.2.6"]
+                 [robert/bruce "0.7.1"]]
   :plugins [[lein-ring "0.8.13"]]
   :ring {:handler noun-quiz.handler/app}
   :profiles
