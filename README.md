@@ -1,6 +1,8 @@
 # noun-quiz
 
-FIXME
+*Under construction*
+
+A little game: type a proverb by looking at icons (fetched from The Noun Project) that represent words.
 
 ## Prerequisites
 
@@ -16,4 +18,4 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Paweł Stroiński
