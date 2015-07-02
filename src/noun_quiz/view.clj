@@ -22,7 +22,7 @@
      ]
     [:body [:div#header header] [:div#content content] [:div#footer footer]]))
 
-(defn challenge []
+(defn challenge [{:keys [score icons]}]
   (layout {:style  [[:#content {:height (px 356)}]
                     [:.clue
                      [:img {:width (px 100), :height (px 100)}]
@@ -41,14 +41,16 @@
                      [:img {:width          (px 20), :height (px 20), :margin-right (px 10)
                             :-webkit-filter "invert(1)", :filter "invert(1)"}]
                      [:span {:margin-left (px 10), :margin-right (px 10)}]]]
-           :header (list "You have " [:span 0] " points after guessing " [:span 0] " and missing " [:span 0] " proverbs. You have " [:span 3] " tries for this proverb.")
-           :footer (list [:span (image "1.png") "by Boudewijn Mijnlieff from The Noun Project"] [:span (image "2.png") "by Evan Shuster from The Noun Project"])}
-          [:div.clue
-           (image "1.png")
-           [:span "a"]
-           (image "2.png")
-           [:span "a"]
-           (image "2.png")]
+           :header (list "You have " [:span (:points score)] " points after guessing "
+                         [:span (:guessed score)] " and missing " [:span (:missed score)]
+                         " proverbs. You have " [:span (:tries score)] " tries for this proverb.")
+           :footer (->> icons
+                        (filter map?)
+                        (map #(-> [:span (image (:url %)) (format "by %s from The Noun Project" (:by %))])))}
+          [:div.clue (map #(if (map? %)
+                            (image (:url %))
+                            [:span %])
+                          icons)]
           (form-to [:post "/"]
                    [:div.guess (text-field {:placeholder "type the above proverb"
                                             :autofocus   true, :autocomplete :off} "guess")]

@@ -28,8 +28,14 @@
                                        (throw e))))))
 
 (defn icons [proverb {:keys [always-as-text] :as config} fetcher]
-  (let [words (str/split proverb #"\W+")])
-    (pmap (fn [word] (if (some #(= (str/upper-case word) (str/upper-case %)) always-as-text)
-                        word
-                        (fetcher word config)))
-          words))
+  (let [words (->> (re-seq #"(?:\W+|\w+)" proverb)
+                   (map str/trim)
+                   (filter (partial not= ""))
+                   (#(if (= (last %) ".") (butlast %) %)))
+        in-always-as-text (fn [word] (some #(= (str/upper-case word)
+                                               (str/upper-case %)) always-as-text))
+        not-a-word (fn [word] (not (re-find #"\w" word)))]
+    (pmap (fn [word] (if (or (in-always-as-text word) (not-a-word word))
+                       word
+                       (or (fetcher word config) word)))
+          words)))

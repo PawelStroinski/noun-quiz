@@ -29,8 +29,10 @@
         (is (thrown? Exception (fetch-icon "monitor" config)))))))
 
 (deftest icons-test
-  (let [config {:always-as-text ["thisalwaysastext1" "thisalwaysastext2"]}
+  (let [config {:always-as-text ["thisalwaysastext1" "thisalwaysastext2" "s"]}
         fetcher (fn [word & _] (when-not (= word "thishasnoicon") {:icon-for word}))]
-      (is (= ["thisalwaysastext1" {:icon-for "foo"} "thishasnoicon" "Thisalwaysastext2" {:icon-for "bar"}]
-             (icons "thisalwaysastext1 foo thishasnoicon Thisalwaysastext2 bar")))
-    ))
+    (is (= ["thisalwaysastext1" {:icon-for "foo"} "thishasnoicon" "Thisalwaysastext2" {:icon-for "bar"}]
+           (icons "thisalwaysastext1 foo thishasnoicon Thisalwaysastext2 bar." config fetcher)))
+    (is (= ["thisalwaysastext1" "'" "s" {:icon-for "foo"} "'" "s" "(" "thishasnoicon" "," "Thisalwaysastext2" "."
+            {:icon-for "bar"} ")?"]
+           (icons "thisalwaysastext1's foo's  (thishasnoicon, Thisalwaysastext2. bar)?" config fetcher)))))
