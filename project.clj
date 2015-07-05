@@ -12,6 +12,7 @@
                            [robert/bruce "0.7.1"]]
             :plugins [[lein-ring "0.8.13"]]
             :ring {:handler noun-quiz.handler/app}
+            :test-paths ["src"]
             :profiles
             {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                                   [peridot "0.4.0"]]}})
