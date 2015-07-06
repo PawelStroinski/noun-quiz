@@ -3,6 +3,21 @@
  :try-options    {:sleep 500
                   :decay :double
                   :tries 3}
+ :prises         ["Nicely done!"
+                  "Brilliant!"
+                  "Outstanding!"
+                  "This is truly above and beyond."
+                  "This is superb!"
+                  "Perfect!"
+                  "Way to go!"
+                  "Outstanding!"
+                  "Remarkable!"
+                  "Whoo-hoo!"
+                  "That's exactly it!"
+                  "That's it!"
+                  "I knew you could do it."
+                  "You make it look easy."
+                  "That's the way!"]
  :always-as-text [;Source: https://en.wikipedia.org/wiki/Most_common_words_in_English
 
                   ;Nouns
@@ -146,5 +161,6 @@
                   "when"
                   "what"
                   "why"
-                  "its"]
+                  "its"
+                  "is"]
  }

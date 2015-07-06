@@ -1,7 +1,8 @@
 (ns noun-quiz.view
   (:require [garden.core :refer [css]]
             [garden.units :refer [px]]
-            [clojure.test :refer [with-test testing is]])
+            [clojure.test :refer [with-test testing is]]
+            [clojure.string :as str])
   (:use [hiccup page element form]))
 
 (defn layout [{:keys [title description style header footer]} & content]
@@ -23,7 +24,7 @@
     [:body [:div#header header] [:div#content content] [:div#footer footer]]))
 
 (with-test
-  (defn challenge [{:keys [score icons]}]
+  (defn challenge [{:keys [score icons guess it-was you-typed praise]}]
     (layout {:style  [[:#content {:height (px 356)}]
                       [:.clue
                        [:img {:width (px 100), :height (px 100)}]
@@ -44,7 +45,10 @@
                        [:span {:margin-left (px 10), :margin-right (px 10)}]]]
              :header (list "You have " [:span (:points score)] " points after guessing "
                            [:span (:guessed score)] " and missing " [:span (:missed score)]
-                           " proverbs. You have " [:span (:tries score)] " tries for this proverb.")
+                           " proverbs. You have " [:span (:tries score)] " tries for this proverb."
+                           (when it-was [:div "It was " [:span it-was]])
+                           (when-not (str/blank? you-typed) [:div "You typed " [:span you-typed]])
+                           (when praise [:div praise]))
              :footer (->> icons
                           (filter map?)
                           (map #(-> [:span (image (:url %)) (format "by %s from The Noun Project" (:by %))])))}
@@ -54,13 +58,21 @@
                             icons)]
             (form-to [:post "/"]
                      [:div.guess (text-field {:placeholder "type the above proverb"
-                                              :autofocus   true, :autocomplete :off} "guess")]
+                                              :autofocus   true, :autocomplete :off} "guess" guess)]
                      [:button {:type :submit} "➔"])))
-  (testing "renders icons and credits"
-    (let [contains-subcoll (fn [coll subcoll]
-                             (some #{subcoll} (tree-seq sequential? identity coll)))
-          data {:icons ["1" {:url "foo" :by "fooby"} "2" {:url "bar" :by "barby"}]}]
-      (with-redefs [layout (fn [{:keys [header footer]} & content] (list header content footer))]
-        (is (contains-subcoll (challenge data) (list [:span "1"] (image "foo") [:span "2"] (image "bar"))))
-        (is (contains-subcoll (challenge data) (list [:span (image "foo") "by fooby from The Noun Project"]
-                                                     [:span (image "bar") "by barby from The Noun Project"])))))))
+  (let [contains-subcoll (fn [coll subcoll]
+                           (some #{subcoll} (tree-seq sequential? identity coll)))]
+    (with-redefs [layout (fn [{:keys [header footer]} & content] (list header content footer))]
+      (testing "renders icons and credits"
+        (let [data {:icons ["1" {:url "foo" :by "fooby"} "2" {:url "bar" :by "barby"}]}]
+          (is (contains-subcoll (challenge data) (list [:span "1"] (image "foo") [:span "2"] (image "bar"))))
+          (is (contains-subcoll (challenge data) (list [:span (image "foo") "by fooby from The Noun Project"]
+                                                       [:span (image "bar") "by barby from The Noun Project"])))))
+      (testing "renders 'it was'"
+        (is (contains-subcoll (challenge {:it-was "Foo"}) [:span "Foo"]))
+        (is (contains-subcoll (challenge {:you-typed "Bar"}) [:span "Bar"]))
+        (is (not (contains-subcoll (challenge nil) [:div "It was " [:span nil]])))
+        (is (not (contains-subcoll (challenge {:you-typed "  "}) [:span "  "]))))
+      (testing "renders praise"
+        (is (contains-subcoll (challenge {:praise "Wow!"}) [:div "Wow!"]))
+        (is (not (contains-subcoll (challenge nil) [:div nil])))))))
