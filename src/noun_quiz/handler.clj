@@ -28,7 +28,7 @@
              (GET "/" {{:keys [proverb icons score]} :session}
                (let [proverb (or proverb (-> (proverbs/read-proverbs) rand-nth))
                      icons (or icons (proverbs/icons proverb (read-config) proverbs/fetch-icon))
-                     score (or score {:points 0, :guessed 0, :missed 0, :tries 3})]
+                     score (or score proverbs/initial-score)]
                  (assemble-response proverb icons score)))
              (POST "/" {{:keys [guess]}               :params
                         {:keys [proverb icons score]} :session}

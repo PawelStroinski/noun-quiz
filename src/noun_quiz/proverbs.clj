@@ -119,3 +119,29 @@
     (is (guessed? "Some proverb" "some Proverb"))
     (is (guessed? "some, proverb" "some proverb!"))
     (is (not (guessed? "some proverb" "someproverb")))))
+
+(def initial-tries 3)
+(def initial-score {:points 0, :guessed 0, :missed 0, :tries initial-tries})
+
+(with-test
+  (defn update-score [{:keys [tries] :as score} guessed]
+    {:pre [(> tries 0)]}
+    (let [last-try (= 1 tries)]
+      (if guessed
+        (-> score
+            (update-in [:points] + 3)
+            (update-in [:guessed] inc)
+            (assoc :tries initial-tries))
+        (-> score
+            (update-in [:points] (if last-try #(max 0 (dec %)) identity))
+            (update-in [:missed] (if last-try inc identity))
+            (update-in [:tries] (if last-try (constantly initial-tries) dec))))))
+  (let [score {:points 2, :guessed 2, :missed 4, :tries 3}]
+    (testing "when guessed"
+      (is (= {:points 5, :guessed 3, :missed 4, :tries initial-tries} (update-score score true))))
+    (testing "when not guessed"
+      (is (= {:points 2, :guessed 2, :missed 4, :tries 2} (update-score score false)))
+      (is (= {:points 2, :guessed 2, :missed 4, :tries 1} (update-score (assoc score :tries 2) false)))
+      (is (= {:points 1, :guessed 2, :missed 5, :tries initial-tries} (update-score (assoc score :tries 1) false)))
+      (is (= {:points 0, :guessed 2, :missed 5, :tries initial-tries} (update-score (assoc score :points 0
+                                                                                                 :tries 1) false))))))
