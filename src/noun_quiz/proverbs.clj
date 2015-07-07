@@ -102,7 +102,7 @@
         icons [{:url "some"} "foo" {:url "proverb"}]]
     (testing "reveals random word"
       (doseq [expected (list [{:url "some"} "foo" "proverb"] ["some" "foo" {:url "proverb"}])]
-        (is (some #{expected} (repeatedly 10 #(reveal-one-word proverb icons))))))
+        (is (some #{expected} (repeatedly 20 #(reveal-one-word proverb icons))))))
     (testing "reveals unrevealed word"
       (doseq [icons (list [{:url "some"} "foo" "proverb"] ["some" "foo" "proverb"])]
         (is (= ["some" "foo" "proverb"] (reveal-one-word proverb icons)))))))
