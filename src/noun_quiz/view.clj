@@ -20,8 +20,8 @@
              :rel  "stylesheet", :type "text/css"}]
      [:style {:type "text/css"}
       (css
-        [:body :input {:font-family "'Source Sans Pro', sans-serif", :font-size (px 100)
-                       :font-weight 400, :text-align "center"}]
+        [:body :input :button {:font-family "'Source Sans Pro', sans-serif", :font-size (px 100)
+                               :font-weight 400, :text-align "center"}]
         [:body {:margin 0, :padding 0}]
         [:.inputs {:margin-bottom (px 8)}
          [:input {:border :none, :font-size (px 50), :width "99%"}
@@ -34,24 +34,30 @@
     [:body [:div#header header] [:div#content content] [:div#footer footer]]))
 
 (with-test
-  (defn challenge [{:keys [score icons guess it-was you-typed praise]}]
+  (defn challenge [{:keys [score icons guess it-was you-typed praise email]}]
     (layout {:style  [[:#content {:height (px 356)}]
                       [:.clue
                        [:img {:width (px 100), :height (px 100)}]
                        [:span {:font-weight 600}]
                        [:img :span {:margin-left (px 15), :margin-right (px 15)}]]
-                      [:#header :#footer {:font-size        (px 20), :font-weight 300,
-                                          :padding-top      (px 5), :padding-bottom (px 5)
-                                          :background-color :black, :color :white, :opacity 0.34}]
+                      [:#header :#footer {:padding-top      (px 5), :padding-bottom (px 5)
+                                          :background-color :black, :opacity 0.34}
+                       [:& :a :button {:font-size (px 20), :font-weight 300, :color :white}]]
                       [:#header
-                       [:span {:font-weight 400}]]
+                       [:span {:font-weight 400}]
+                       [:a :button {:opacity 0.8, :text-decoration :none, :cursor :pointer}]
+                       [:form {:display :inline}]]
                       [:#footer
                        [:img {:width          (px 20), :height (px 20), :margin-right (px 10)
                               :-webkit-filter "invert(1)", :filter "invert(1)"}]
                        [:span {:margin-left (px 10), :margin-right (px 10)}]]]
              :header (list "You have " [:span (:points score)] " points after guessing "
                            [:span (:guessed score)] " and missing " [:span (:missed score)]
-                           " proverbs. You have " [:span (:tries score)] " tries for this proverb."
+                           " proverbs. You have " [:span (:tries score)] " tries for this proverb. "
+                           (if email
+                             (list "Logged in: " email " "
+                                   (form-to [:post "/logout"] [:button {:type :submit} "Log out"]))
+                             (link-to "/login" "Log in / Register"))
                            (when it-was [:div "It was " [:span it-was]])
                            (when-not (str/blank? you-typed) [:div "You typed " [:span you-typed]])
                            (when praise [:div praise]))
@@ -79,7 +85,13 @@
       (is (not (contains-subcoll (challenge {:you-typed "  "}) [:span "  "]))))
     (testing "renders praise"
       (is (contains-subcoll (challenge {:praise "Wow!"}) [:div "Wow!"]))
-      (is (not (contains-subcoll (challenge nil) [:div nil]))))))
+      (is (not (contains-subcoll (challenge nil) [:div nil])))))
+  (testing "renders log in link or email & log out link"
+    (is (.contains (challenge nil) "/login"))
+    (is (not (.contains (challenge nil) "/logout")))
+    (is (.contains (challenge {:email "foo"}) "foo"))
+    (is (.contains (challenge {:email "foo"}) "/logout"))
+    (is (not (.contains (challenge {:email "foo"}) "/login")))))
 
 (with-test
   (defn login-form [{:keys [wrong-password]}]
@@ -87,8 +99,9 @@
                       [:#header {:font-size (px 30)}]]
              :header (when wrong-password [:div "Wrong password."])}
             (form-to [:post "/login"]
-                     [:div.inputs (text-field {:placeholder "email" :autofocus true} "email")
-                      (password-field {:placeholder "password"} "password")]
+                     [:div.inputs (text-field {:placeholder "email", :autofocus true
+                                               :required true, :type :email} "email")
+                      (password-field {:placeholder "password", :required true} "password")]
                      [:button {:type :submit} "➔"])))
   (with-redefs [layout echo-layout]
     (testing "renders 'wrong password'"

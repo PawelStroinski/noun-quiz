@@ -25,8 +25,8 @@
 (defn- response [body]
   (-> (resp/response body) (resp/content-type "text/html") (resp/charset "utf-8")))
 
-(defn- assemble-response [session proverb icons score & [data]]
-  (-> {:score score, :icons icons}
+(defn- assemble-response [session proverb icons score email & [data]]
+  (-> {:score score, :icons icons, :email email}
       (merge data)
       (view/challenge)
       (response)
@@ -37,11 +37,11 @@
 
 (with-test
   (defroutes app-routes
-             (GET "/" {{:keys [proverb icons score] :as session} :session}
+             (GET "/" {{:keys [proverb icons score email] :as session} :session}
                (let [proverb (or proverb (new-proverb))
                      icons (or icons (new-icons proverb))
                      score (or score proverbs/initial-score)]
-                 (assemble-response session proverb icons score)))
+                 (assemble-response session proverb icons score email)))
              (POST "/" {{:keys [guess]}                                 :params
                         {:keys [proverb icons score email] :as session} :session}
                (let [guessed (proverbs/guessed? proverb guess)
@@ -57,7 +57,7 @@
                                   (proverbs/reveal-guessed-words proverb guess)
                                   (proverbs/reveal-one-word proverb)))]
                  (when (and email reset) (users/save-score email score))
-                 (assemble-response session proverb icons score data)))
+                 (assemble-response session proverb icons score email data)))
              (GET "/login" {}
                (-> (view/login-form {})
                    (response)))
@@ -76,6 +76,9 @@
                                       (->> (keys proverbs/initial-score) (select-keys user))))))
                  (-> (view/login-form {:wrong-password true})
                      (response))))
+             (POST "/logout" {}
+               (-> (resp/redirect "/")
+                   (assoc :session nil)))
              (route/not-found "Not Found"))
   (declare app)
   (def ^:dynamic *all-proverbs* ["Foo bar" "Bar foo"])
@@ -172,6 +175,7 @@
                                    :params {:email %1, :password "bar"})
                           (follow-redirect))
             login (partial login-as "foo")
+            logout #(-> (request % "/logout" :request-method :post) (follow-redirect))
             tries #(get-in % [:response :body :score :tries])
             miss-try #(-> (request % "/") (request "/" :request-method :post, :params {:guess "hmm"}))
             miss #(reduce (fn [state _] (miss-try state)) % (range proverbs/initial-tries))]
@@ -208,7 +212,17 @@
               (-> (session app) (fixed-challenge) (login) (guess))
               (-> (session app) (login) (is# (pos? (score %))))
               (-> (session app) (login) (miss))
-              (-> (session app) (login) (is# (pos? (get-in % [:response :body :score :missed])))))))))
+              (-> (session app) (login) (is# (pos? (get-in % [:response :body :score :missed]))))))
+          (testing "GET & POST return email of logged in user"
+            (transaction
+              (rollback)
+              (-> (session app) (login) (is# (= "foo" (get-in % [:response :body :email]))))
+              (-> (session app) (login) (guess) (is# (= "foo" (get-in % [:response :body :email])))))))
+        (testing "/logout"
+          (testing "POST clears session"
+            (transaction
+              (rollback)
+              (-> (session app) (login) (guess) (logout) (is# (zero? (score %)))))))))
     (testing "not-found route"
       (let [response (-> (session app) (request "/invalid") :response)]
         (is (= 404 (:status response)))))))
