@@ -1,5 +1,8 @@
 {:thenounproject {:key    ""
                   :secret ""}
+ :database       {:db "noun_quiz"
+                  :user "pawel"
+                  :password ""}
  :try-options    {:sleep 500
                   :decay :double
                   :tries 3}
