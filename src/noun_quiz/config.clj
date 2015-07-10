@@ -3,4 +3,6 @@
             [clojure.edn :as edn]))
 
 (defn read-config []
-  (-> "config.edn" io/resource io/file slurp edn/read-string))
+  (merge
+    (-> "config.edn" io/resource io/file slurp edn/read-string)
+    (if-let [env-var (System/getenv "NOUN_QUIZ_CONFIG")] (edn/read-string env-var))))

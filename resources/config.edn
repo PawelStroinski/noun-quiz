@@ -1,8 +1,7 @@
 {:thenounproject {:key    ""
                   :secret ""}
  :database       {:db "noun_quiz"
-                  :user "pawel"
-                  :password ""}
+                  :user "pawel"}
  :try-options    {:sleep 500
                   :decay :double
                   :tries 3}
@@ -165,5 +164,7 @@
                   "what"
                   "why"
                   "its"
-                  "is"]
+                  "is"
+                  "are"
+                  "t"]
  }

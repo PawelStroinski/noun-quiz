@@ -35,35 +35,37 @@
 
 (with-test
   (defn challenge [{:keys [score icons guess it-was you-typed praise email]}]
-    (layout {:style  [[:#content {:height (px 356)}]
-                      [:.clue
-                       [:img {:width (px 100), :height (px 100)}]
-                       [:span {:font-weight 600}]
-                       [:img :span {:margin-left (px 15), :margin-right (px 15)}]]
-                      [:#header :#footer {:padding-top      (px 5), :padding-bottom (px 5)
-                                          :background-color :black, :opacity 0.34}
-                       [:& :a :button {:font-size (px 20), :font-weight 300, :color :white}]]
-                      [:#header
-                       [:span {:font-weight 400}]
-                       [:a :button {:opacity 0.8, :text-decoration :none, :cursor :pointer}]
-                       [:form {:display :inline}]]
-                      [:#footer
-                       [:img {:width          (px 20), :height (px 20), :margin-right (px 10)
-                              :-webkit-filter "invert(1)", :filter "invert(1)"}]
-                       [:span {:margin-left (px 10), :margin-right (px 10)}]]]
-             :header (list "You have " [:span (:points score)] " points after guessing "
-                           [:span (:guessed score)] " and missing " [:span (:missed score)]
-                           " proverbs. You have " [:span (:tries score)] " tries for this proverb. "
-                           (if email
-                             (list "Logged in: " email " "
-                                   (form-to [:post "/logout"] [:button {:type :submit} "Log out"]))
-                             (link-to "/login" "Log in / Register"))
-                           (when it-was [:div "It was " [:span it-was]])
-                           (when-not (str/blank? you-typed) [:div "You typed " [:span you-typed]])
-                           (when praise [:div praise]))
-             :footer (->> icons
-                          (filter map?)
-                          (map #(-> [:span (image (:url %)) (format "by %s from The Noun Project" (:by %))])))}
+    (layout {:title       "Guess the Proverb"
+             :description "The game: type the proverb by looking at icons representing words in the proverb."
+             :style       [[:#content {:height (px 356)}]
+                           [:.clue
+                            [:img {:width (px 100), :height (px 100)}]
+                            [:span {:font-weight 600}]
+                            [:img :span {:margin-left (px 15), :margin-right (px 15)}]]
+                           [:#header :#footer {:padding-top      (px 5), :padding-bottom (px 5)
+                                               :background-color :black, :opacity 0.34}
+                            [:& :a :button {:font-size (px 20), :font-weight 300, :color :white}]]
+                           [:#header
+                            [:span {:font-weight 400}]
+                            [:a :button {:opacity 0.8, :text-decoration :none, :cursor :pointer}]
+                            [:form {:display :inline}]]
+                           [:#footer
+                            [:img {:width          (px 20), :height (px 20), :margin-right (px 10)
+                                   :-webkit-filter "invert(1)", :filter "invert(1)"}]
+                            [:span {:margin-left (px 10), :margin-right (px 10)}]]]
+             :header      (list "You have " [:span (:points score)] " points after guessing "
+                                [:span (:guessed score)] " and missing " [:span (:missed score)]
+                                " proverbs. You have " [:span (:tries score)] " tries for this proverb. "
+                                (if email
+                                  (list "Logged in: " email " "
+                                        (form-to [:post "/logout"] [:button {:type :submit} "Log out"]))
+                                  (link-to "/login" "Log in or Register"))
+                                (when it-was [:div "It was " [:span it-was]])
+                                (when-not (str/blank? you-typed) [:div "You typed " [:span you-typed]])
+                                (when praise [:div praise]))
+             :footer      (->> icons
+                               (filter map?)
+                               (map #(-> [:span (image (:url %)) (format "by %s from The Noun Project" (:by %))])))}
             [:div.clue (map #(if (map? %)
                               (image (:url %))
                               [:span %])
@@ -95,12 +97,14 @@
 
 (with-test
   (defn login-form [{:keys [wrong-password]}]
-    (layout {:style  [[:#content {:height (px 415)}]
-                      [:#header {:font-size (px 30)}]]
-             :header (when wrong-password [:div "Wrong password."])}
+    (layout {:title       "Log in or Register"
+             :description "Guess the Proverb - log in to the game"
+             :style       [[:#content {:height (px 415)}]
+                           [:#header {:font-size (px 30)}]]
+             :header      (when wrong-password [:div "Wrong password."])}
             (form-to [:post "/login"]
                      [:div.inputs (text-field {:placeholder "email", :autofocus true
-                                               :required true, :type :email} "email")
+                                               :required    true, :type :email} "email")
                       (password-field {:placeholder "password", :required true} "password")]
                      [:button {:type :submit} "➔"])))
   (with-redefs [layout echo-layout]
