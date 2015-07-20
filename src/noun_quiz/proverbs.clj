@@ -61,13 +61,22 @@
 (with-test
   (defn icons [proverb {:keys [always-as-text] :as config} fetcher]
     (let [proverb-words (split-into-words proverb)
-          in-always-as-text (fn [word] (some #(= (str/upper-case word)
-                                                 (str/upper-case %)) always-as-text))
-          not-a-word (fn [word] (not (re-find #"\w" word)))]
-      (pmap (fn [word] (if (or (in-always-as-text word) (not-a-word word))
-                         word
-                         (or (fetcher word config) word)))
-            proverb-words)))
+          not-always-as-text (fn [word]
+                               (not-any? #(= (str/upper-case word)
+                                             (str/upper-case %))
+                                         always-as-text))
+          is-a-word (fn [word] (re-find #"\w" word))
+          words-to-fetch (->> proverb-words
+                              (filter (fn [word]
+                                        (and (not-always-as-text word) (is-a-word word))))
+                              distinct)
+          fetched-words (apply merge (pmap (fn [word]
+                                             {(str/upper-case word) (fetcher word config)})
+                                           words-to-fetch))]
+      (map (fn [word]
+             (or (fetched-words (str/upper-case word))
+                 word))
+           proverb-words)))
   (testing "words in always-as-text or not found by fetcher or commas etc. are returned as-is, the rest as icons"
     (let [config {:always-as-text ["thisalwaysastext1" "thisalwaysastext2" "s"]}
           fetcher (fn [word & _] (when-not (= word "thishasnoicon") {:icon-for word}))]
@@ -75,7 +84,11 @@
              (icons "thisalwaysastext1 foo thishasnoicon Thisalwaysastext2 bar." config fetcher)))
       (is (= ["thisalwaysastext1" "'" "s" {:icon-for "foo"} "'" "s" "(" "thishasnoicon" "," "Thisalwaysastext2" "."
               {:icon-for "bar"} ")?"]
-             (icons "thisalwaysastext1's foo's  (thishasnoicon, Thisalwaysastext2. bar)?" config fetcher))))))
+             (icons "thisalwaysastext1's foo's  (thishasnoicon, Thisalwaysastext2. bar)?" config fetcher)))))
+  (testing "does not request the same icon two times"
+    (let [fetcher (fn [& _] (rand))
+          actual (icons "foo Foo" nil fetcher)]
+      (is (= (first actual) (second actual))))))
 
 (with-test
   (defn reveal-guessed-words [proverb guess icons]
