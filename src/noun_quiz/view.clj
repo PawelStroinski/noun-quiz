@@ -34,7 +34,7 @@
     [:body [:div#header header] [:div#content content] [:div#footer footer]]))
 
 (with-test
-  (defn challenge [{:keys [score icons guess it-was you-typed praise email]}]
+  (defn challenge [{:keys [score icons it-was you-typed praise email]}]
     (layout {:title       "Guess the Proverb"
              :description "The game: type the proverb by looking at icons representing words in the proverb."
              :style       [[:#content {:height (px 356)}]
@@ -72,7 +72,7 @@
                             icons)]
             (form-to [:post "/"]
                      [:div.inputs (text-field {:placeholder "type the above proverb"
-                                               :autofocus   true, :autocomplete :off} "guess" guess)]
+                                               :autofocus   true, :autocomplete :off} "guess")]
                      [:button {:type :submit} "➔"])))
   (with-redefs [layout echo-layout]
     (testing "renders icons and credits"

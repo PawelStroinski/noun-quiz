@@ -47,8 +47,7 @@
                (let [guessed (proverbs/guessed? proverb guess)
                      score (proverbs/update-score score guessed)
                      reset (= proverbs/initial-tries (:tries score))
-                     data {:guess guess}
-                     data (if (and (not guessed) reset) {:it-was proverb, :you-typed guess} data)
+                     data (if (and (not guessed) reset) {:it-was proverb, :you-typed guess})
                      data (if guessed {:praise (praise)} data)
                      proverb (if reset (new-proverb) proverb)
                      icons (if reset
@@ -138,22 +137,19 @@
             (#(binding [*all-proverbs* ["bar"]] (request % "/" :request-method :post, :params {:guess "Foo."})))
             (is# (= [{:url "bar"}] (get-in % [:response :body :icons])))
             (is# (pos? (get-in % [:response :body :score :points])))))
-      (testing "POST returns 'it was' and last guess"
+      (testing "POST returns 'it was'"
         (-> (session app)
             (#(binding [*all-proverbs* ["bar"]] (request % "/")))
             (#(reduce (fn [state _] (request state "/" :request-method :post, :params {:guess "hmm"}))
                       % (range (dec proverbs/initial-tries))))
             (is# (not (get-in % [:response :body :it-was])))
             (is# (not (get-in % [:response :body :you-typed])))
-            (is# (= "hmm" (get-in % [:response :body :guess])))
             (#(binding [*all-proverbs* ["foo"]] (request % "/" :request-method :post, :params {:guess "hmm"})))
             (is# (= "bar" (get-in % [:response :body :it-was])))
             (is# (= "hmm" (get-in % [:response :body :you-typed])))
-            (is# (not (get-in % [:response :body :guess])))
             (request "/" :request-method :post, :params {:guess "foo"})
             (is# (not (get-in % [:response :body :it-was])))
-            (is# (not (get-in % [:response :body :you-typed])))
-            (is# (not (get-in % [:response :body :guess])))))
+            (is# (not (get-in % [:response :body :you-typed])))))
       (testing "POST returns a random prise after a successful guess only"
         (let [prises ["Foo!" "Bar!"]
               initial-request (fn [] (-> (session app)
