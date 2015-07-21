@@ -41,7 +41,7 @@
                            [:.clue
                             [:img {:width (px 100), :height (px 100)}]
                             [:span {:font-weight 600}]
-                            [:img :span {:margin-left (px 15), :margin-right (px 15)}]]
+                            [:img :span {:margin-left (px 5), :margin-right (px 5)}]]
                            [:#header :#footer {:padding-top      (px 5), :padding-bottom (px 5)
                                                :background-color :black, :opacity 0.34}
                             [:& :a :button {:font-size (px 20), :font-weight 300, :color :white}]]
@@ -66,10 +66,10 @@
              :footer      (->> icons
                                (filter map?)
                                (map #(-> [:span (image (:url %)) (format "by %s from The Noun Project" (:by %))])))}
-            [:div.clue (map #(if (map? %)
-                              (image (:url %))
-                              [:span %])
-                            icons)]
+            [:div.clue (interpose " " (map #(if (map? %)
+                                             (image (:url %))
+                                             [:span %])
+                                           icons))]
             (form-to [:post "/"]
                      [:div.inputs (text-field {:placeholder "type the above proverb"
                                                :autofocus   true, :autocomplete :off} "guess")]
@@ -77,7 +77,7 @@
   (with-redefs [layout echo-layout]
     (testing "renders icons and credits"
       (let [data {:icons ["1" {:url "foo" :by "fooby"} "2" {:url "bar" :by "barby"}]}]
-        (is (contains-subcoll (challenge data) (list [:span "1"] (image "foo") [:span "2"] (image "bar"))))
+        (is (contains-subcoll (challenge data) (list [:span "1"] " " (image "foo") " " [:span "2"] " " (image "bar"))))
         (is (contains-subcoll (challenge data) (list [:span (image "foo") "by fooby from The Noun Project"]
                                                      [:span (image "bar") "by barby from The Noun Project"])))))
     (testing "renders 'it was'"
