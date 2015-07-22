@@ -33,6 +33,8 @@
      ]
     [:body [:div#header header] [:div#content content] [:div#footer footer]]))
 
+(def ^:private colors {:initial :black, :first-retry :navy, :second-retry :blue, :success :green, :failure :red})
+
 (with-test
   (defn challenge [{:keys [score icons it-was you-typed praise email]}]
     (layout {:title       "Guess the Proverb"
@@ -45,6 +47,12 @@
                            [:#header :#footer {:padding-top      (px 5), :padding-bottom (px 5)
                                                :background-color :black, :opacity 0.34}
                             [:& :a :button {:font-size (px 20), :font-weight 300, :color :white}]]
+                           [:#header {:background-color (colors (cond
+                                                                  (= 2 (:tries score)) :first-retry
+                                                                  (= 1 (:tries score)) :second-retry
+                                                                  praise :success
+                                                                  it-was :failure
+                                                                  :else :initial))}]
                            [:#header
                             [:span {:font-weight 400}]
                             [:a :button {:opacity 0.8, :text-decoration :none, :cursor :pointer}]
@@ -53,16 +61,16 @@
                             [:img {:width          (px 20), :height (px 20), :margin-right (px 10)
                                    :-webkit-filter "invert(1)", :filter "invert(1)"}]
                             [:span {:margin-left (px 10), :margin-right (px 10)}]]]
-             :header      (list "You have " [:span (:points score)] " points after guessing "
+             :header      (list (when it-was [:div "It was " [:span it-was]])
+                                (when-not (str/blank? you-typed) [:div "You typed " [:span you-typed]])
+                                (when praise [:div praise])
+                                "You have " [:span (:points score)] " points after guessing "
                                 [:span (:guessed score)] " and missing " [:span (:missed score)]
-                                " proverbs. You have " [:span (:tries score)] " tries for this proverb. "
+                                " proverbs. You have " [:span (:tries score)] " tries left for this proverb. "
                                 (if email
                                   (list "Logged in: " email " "
                                         (form-to [:post "/logout"] [:button {:type :submit} "Log out"]))
-                                  (link-to "/login" "Log in or Register"))
-                                (when it-was [:div "It was " [:span it-was]])
-                                (when-not (str/blank? you-typed) [:div "You typed " [:span you-typed]])
-                                (when praise [:div praise]))
+                                  (link-to "/login" "Log in or Register")))
              :footer      (->> icons
                                (filter map?)
                                (map #(-> [:span (image (:url %)) (format "by %s from The Noun Project" (:by %))])))}
@@ -93,7 +101,14 @@
     (is (not (.contains (challenge nil) "/logout")))
     (is (.contains (challenge {:email "foo"}) "foo"))
     (is (.contains (challenge {:email "foo"}) "/logout"))
-    (is (not (.contains (challenge {:email "foo"}) "/login")))))
+    (is (not (.contains (challenge {:email "foo"}) "/login"))))
+  (testing "renders different header colors"
+    (with-redefs [layout (fn [{:keys [style]} & _] style)]
+      (is (contains-subcoll (challenge nil) [:#header {:background-color (colors :initial)}]))
+      (is (contains-subcoll (challenge {:score {:tries 2}}) [:#header {:background-color (colors :first-retry)}]))
+      (is (contains-subcoll (challenge {:score {:tries 1}}) [:#header {:background-color (colors :second-retry)}]))
+      (is (contains-subcoll (challenge {:praise "Wow!"}) [:#header {:background-color (colors :success)}]))
+      (is (contains-subcoll (challenge {:it-was "Foo"}) [:#header {:background-color (colors :failure)}])))))
 
 (with-test
   (defn login-form [{:keys [wrong-password]}]
