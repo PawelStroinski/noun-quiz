@@ -1,6 +1,7 @@
 (ns noun-quiz.view
   (:require [garden.core :refer [css]]
             [garden.units :refer [px]]
+            [garden.stylesheet :refer [at-media]]
             [clojure.test :refer [with-test testing is]]
             [clojure.string :as str])
   (:use [hiccup page element form]))
@@ -23,12 +24,15 @@
         [:body :input :button {:font-family "'Source Sans Pro', sans-serif", :font-size (px 100)
                                :font-weight 400, :text-align "center"}]
         [:body {:margin 0, :padding 0}]
-        [:.inputs {:margin-bottom (px 8)}
-         [:input {:border :none, :font-size (px 50), :width "99%"}
-          [:&:focus {:outline :none}]]]
+        [:.inputs {:margin-bottom (px 8)}]
+        [:input {:border :none, :font-size (px 50), :width "99%"}
+         [:&:focus {:outline :none}]]
         [:button {:padding 0, :border :none, :background :none, :font-size (px 50)}]
         [:#content {:margin :auto, :position :absolute, :top 0, :left 0, :bottom 0, :right 0}]
         [:#footer {:position :absolute, :bottom 0, :width "100%"}]
+        (at-media {:max-width (px 1380)}
+                  [:body {:font-size (px 75)}]
+                  [:input :button {:font-size (px 37)}])
         style)]
      ]
     [:body [:div#header header] [:div#content content] [:div#footer footer]]))
@@ -60,7 +64,11 @@
                            [:#footer
                             [:img {:width          (px 20), :height (px 20), :margin-right (px 10)
                                    :-webkit-filter "invert(1)", :filter "invert(1)"}]
-                            [:span {:margin-left (px 10), :margin-right (px 10)}]]]
+                            [:span {:margin-left (px 10), :margin-right (px 10)}]]
+                           (at-media {:max-width (px 1380)}
+                                     [:#content {:height (px 270)}]
+                                     [:.clue
+                                      [:img {:width (px 75), :height (px 75)}]])]
              :header      (list (when it-was [:div "It was " [:span it-was]])
                                 (when-not (str/blank? you-typed) [:div "You typed " [:span you-typed]])
                                 (when praise [:div praise])
