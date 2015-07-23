@@ -64,7 +64,8 @@
                            [:#footer
                             [:img {:width          (px 20), :height (px 20), :margin-right (px 10)
                                    :-webkit-filter "invert(1)", :filter "invert(1)"}]
-                            [:span {:margin-left (px 10), :margin-right (px 10)}]]
+                            [:span {:margin-left (px 10), :margin-right (px 10)}]
+                            [:strong {:font-weight 400}]]
                            (at-media {:max-width (px 1380)}
                                      [:#content {:height (px 270)}]
                                      [:.clue
@@ -81,7 +82,8 @@
                                   (link-to "/login" "Log in or Register")))
              :footer      (->> icons
                                (filter map?)
-                               (map #(-> [:span (image (:url %)) (format "by %s from The Noun Project" (:by %))])))}
+                               distinct
+                               (map #(-> [:span (image (:url %)) "by " [:strong (:by %)] " from The Noun Project"])))}
             [:div.clue (interpose " " (map #(if (map? %)
                                              (image (:url %))
                                              [:span %])
@@ -92,10 +94,12 @@
                      [:button {:type :submit} "➔"])))
   (with-redefs [layout echo-layout]
     (testing "renders icons and credits"
-      (let [data {:icons ["1" {:url "foo" :by "fooby"} "2" {:url "bar" :by "barby"}]}]
-        (is (contains-subcoll (challenge data) (list [:span "1"] " " (image "foo") " " [:span "2"] " " (image "bar"))))
-        (is (contains-subcoll (challenge data) (list [:span (image "foo") "by fooby from The Noun Project"]
-                                                     [:span (image "bar") "by barby from The Noun Project"])))))
+      (let [data {:icons ["1" {:url "foo" :by "fooby"} "2" {:url "bar" :by "barby"} {:url "bar" :by "barby"}]}]
+        (is (contains-subcoll (challenge data) (list [:span "1"] " " (image "foo") " " [:span "2"] " "
+                                                     (image "bar") " " (image "bar"))))
+        (is (contains-subcoll (challenge data)
+                              (list [:span (image "foo") "by " [:strong "fooby"] " from The Noun Project"]
+                                    [:span (image "bar") "by " [:strong "barby"] " from The Noun Project"])))))
     (testing "renders 'it was'"
       (is (contains-subcoll (challenge {:it-was "Foo"}) [:span "Foo"]))
       (is (contains-subcoll (challenge {:you-typed "Bar"}) [:span "Bar"]))
